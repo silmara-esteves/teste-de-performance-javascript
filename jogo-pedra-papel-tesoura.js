@@ -2,7 +2,7 @@
 Etapas:
 Entrada do usuário: escolher entre pedra, papel, tesoura
 Distribuir os dados: pedra - 1, papel - 2, tesoura - 3;
-Validar os dados: maior ou igual a 1 e menor ou igual a três;
+Validar os dados: maior ou igual a 1 e menor ou igual a 3;
 Armazenar em variáveis;
 Setar as regras (if/else);
 Informar o usuário sua escolha, a escolha do programa, e se venceu ou perdeu.
