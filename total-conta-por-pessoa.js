@@ -1,4 +1,5 @@
 let totalConta = Number(prompt("Insira o valor total da conta:"));
+let totalConta = Number(prompt("Insira o valor total da conta:"));
 let totalPessoas = Number(prompt("Insira a quantidade total de pessoas:"));
 
 if (isNaN(totalConta)) {
@@ -9,6 +10,6 @@ if (isNaN(totalConta)) {
   alert("Insira um número válido");
 } else {
   let gorjeta = totalConta * 0.1;
-  let porPessoa = totalConta + gorjeta / 2;
+  let porPessoa = gorjeta + totalConta / totalPessoas;
   alert(`O total por pessoa é de ${porPessoa.toFixed(1)}`);
 }
